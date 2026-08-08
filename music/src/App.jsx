@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>My Music Player</h1>
+      <h1>Melodify</h1>
       <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
 
      {loading && <p className="hint-text">Loading songs...</p>}
