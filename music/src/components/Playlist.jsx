@@ -5,7 +5,7 @@ function Playlist({ songs, currentSong, onSelectSong }) {
   return (
     <div className="playlist">
       {songs.length === 0 ? (
-        <p className="no-results">Koi song nahi mila</p>
+        <p className="no-results">No songs found</p>
       ) : (
         songs.map((song) => (
           <SongItem
